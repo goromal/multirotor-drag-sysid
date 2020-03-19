@@ -1,0 +1,6 @@
+[submodule "lib/osqp"]
+	path = lib/osqp
+	url = https://github.com/oxfordcontrol/osqp
+[submodule "lib/logging-utils-lib"]
+	path = lib/logging-utils-lib
+	url = https://github.com/goromal/logging-utils-lib.git

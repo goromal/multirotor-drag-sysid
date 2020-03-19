@@ -1,0 +1,4 @@
+build/*
+logs/*
+CMakeLists.txt.user
+*~
