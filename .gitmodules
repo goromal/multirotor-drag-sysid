@@ -1,6 +1,9 @@
-[submodule "lib/osqp"]
-	path = lib/osqp
-	url = https://github.com/oxfordcontrol/osqp
 [submodule "lib/logging-utils-lib"]
 	path = lib/logging-utils-lib
 	url = https://github.com/goromal/logging-utils-lib.git
+[submodule "lib/osqp-eigen"]
+	path = lib/osqp-eigen
+	url = https://github.com/goromal/osqp-eigen.git
+[submodule "lib/progress_bar"]
+	path = lib/progress_bar
+	url = https://github.com/superjax/progress_bar.git
