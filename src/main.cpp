@@ -46,8 +46,7 @@ int main(int argc, char *argv[])
 
     // Read config file values
     std::string configfname = program_args[0];
-    std::string logdirname;
-    logging::get_yaml_node<std::string>("log_dir", configfname, logdirname);
+    std::string logdirname = filesys::dirName(configfname);
     double m_, g_, mu_max;
     logging::get_yaml_node<double>("m", configfname, m_);
     logging::get_yaml_node<double>("g", configfname, g_);
